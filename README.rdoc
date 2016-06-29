@@ -5,6 +5,8 @@ I'm Antonio, a Full-Stack Web Developer with a Ruby on Rails Focus.  I believe t
 
 In order to get the robust knowledge needed to bring projects to life, I enrolled in the Flatiron School's Learn-Verified full-stack webe development program, and I've been hooked on coding ever since.
 
+I look forward to sharing this journey with you!
+
 == About the Webpage
 My homepage is built on the Bootstrap framework. The HTML and CSS were coded by me and all code is publicly available for review on {GitHub}[https://github.com/agdavid/antoniodavid-personal-website].
 
