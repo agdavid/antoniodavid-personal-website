@@ -17,3 +17,45 @@ h6 {
 .topnav {
     font-size: 14px; 
 }
+
+/* Intro Header section */
+
+.intro-header {
+  padding-top: 50px; /* padding so that navbar does not overlap */
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%
+}
+
+.intro-message > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-sixe: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width: 767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message > h1 {
+    font-size: 3em;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
