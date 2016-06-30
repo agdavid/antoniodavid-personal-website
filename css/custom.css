@@ -40,7 +40,7 @@ h6 {
   font-sixe: 5em;
 }
 
-.intro-divider {
+hr {
   width: 400px;
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -60,4 +60,44 @@ h6 {
   .intro-divider {
     width: 100%;
   }
+}
+
+/* Sections (General) */
+
+section {
+  padding: 100px 0;
+}
+
+.section-heading {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0
+  }
+}
+
+.text-muted {
+  color: #777;
+}
+
+.text-primary {
+ color: #4F81B3;
+}
+
+.process-heading {
+  magin: 15px 0;
+  text-transform: none;
 }
