@@ -8,3 +8,8 @@ $(function() {
         event.preventDefault();
     });
 });
+
+// Close the navbar on click of Menu Item
+$('.navbar-collapse ul li a').click(function() {
+  $('.navbar-toggle:visible').click();
+});
