@@ -278,7 +278,6 @@ section {
 
 /* About Me */
 .about-me {
-  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -290,6 +289,7 @@ section {
 
 .about-me p {
   margin-top: 25px;
+  text-align: center;
 }
 
 img::selection {
