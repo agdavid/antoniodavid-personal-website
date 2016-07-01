@@ -35,34 +35,37 @@
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
       <div class="container topnav">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand topnav" href="#">Antonio David</a>
+          <a class="navbar-brand page-scroll topnav" href="#page-top">Antonio David</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#blog">Blog</a>
+            <li class="hidden">
+              <a href="#page-top"></a>              
             </li>
             <li>
-              <a href="#process">Process</a>
+              <a href="#blog" class="page-scroll">Blog</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#process" class="page-scroll">Process</a>
             </li>
             <li>
-              <a href="#about">About Me</a>
+              <a href="#portfolio" class="page-scroll">Portfolio</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#about" class="page-scroll">About Me</a>
+            </li>
+            <li>
+              <a href="#contact" class="page-scroll">Contact</a>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -142,7 +145,7 @@
 
           <div class="row">
             
-            <!-- generic Portfolio item -->
+            <!-- template Portfolio item -->
             <!-- <div class="col-md-4 col-sm-6 portfolio-item">
               <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
@@ -157,6 +160,20 @@
                 <p class="text-muted">Project Caption</p>
               </div>
             </div> -->
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="#" class="img-responsive" alt="#">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Project Name</h4>
+                <p class="text-muted">Project Caption</p>
+              </div>
+            </div>            
 
           </div>
         </div> <!-- /. row -->
@@ -170,6 +187,12 @@
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- custom JS -->
+    <script src="js/custom.js"></script>
   
   </body>
 
