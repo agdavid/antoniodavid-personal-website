@@ -275,6 +275,23 @@ section {
   text-shadow:none;background:#4F81B3
   }
 
+
+/* About Me */
+.about-me {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-me img {
+  max-height: 250px;
+  margin: 0 auto;
+  border: 7px solid #f7f7f7;
+}
+
+.about-me p {
+  margin-top: 25px;
+}
+
 img::selection {
   background:0 0
   }
