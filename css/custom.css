@@ -301,4 +301,14 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color:#4F81B3
-}  
+}
+
+/* Footer */
+
+footer {
+  padding: 25px 0;
+}
+footer span.copyright {
+  line-height: 40px;
+  text-transform: uppercase;
+}
