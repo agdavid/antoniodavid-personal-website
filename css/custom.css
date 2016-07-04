@@ -303,6 +303,56 @@ body {
   webkit-tap-highlight-color:#4F81B3
 }
 
+/* Contact */
+
+.bg-dark {
+  background-color: #1a1a1a;
+}
+
+section #contact{
+  background-color:#222;
+  // background-image:url(../img/image.png); TO BE INSERTED
+  background-position:center;
+  background-repeat:no-repeat}
+
+section#contact .section-heading{
+  color:#fff}
+
+section#contact .form-group{
+  margin-bottom:25px}
+
+section#contact .form-group input,
+section#contact .form-group textarea{
+  padding:20px}
+
+section#contact .form-group input.form-control{
+  height:auto}
+
+section#contact .form-group textarea.form-control{
+  height:236px}
+
+section#contact .form-control:focus{
+  border-color:#fed136;
+  box-shadow:none}
+
+section#contact ::-webkit-input-placeholder{
+  text-transform:uppercase;
+  font-weight:700;
+  color:#bbb}
+
+section#contact :-moz-placeholder{
+  text-transform:uppercase;
+  font-weight:700;
+  color:#bbb}
+
+section#contact :-ms-input-placeholder{
+  text-transform:uppercase;
+  font-weight:700;
+  color:#bbb}
+
+section#contact .text-danger{
+  color:#e74c3c}
+
 /* Footer */
 
 footer {
