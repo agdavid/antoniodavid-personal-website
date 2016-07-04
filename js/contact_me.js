@@ -1,3 +1,5 @@
+// Source: startbootstrap-agency template
+
 $(function() {
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
