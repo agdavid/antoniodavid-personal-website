@@ -104,6 +104,11 @@ section {
  color: #4F81B3;
 }
 
+/* Process */
+p.process-text {
+  font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .process-heading {
   magin: 15px 0;
   text-transform: none;
