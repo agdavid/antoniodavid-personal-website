@@ -69,6 +69,10 @@ hr {
   }
 }
 
+p.process-text, p.about-text {
+  font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 /* Sections */
 
 section {
@@ -105,9 +109,6 @@ section {
 }
 
 /* Process */
-p.process-text {
-  font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 
 .process-heading {
   magin: 15px 0;
