@@ -69,7 +69,7 @@ hr {
   }
 }
 
-p.process-text, p.about-text {
+p.process-text, p.about-text, p.modal-text {
   font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
