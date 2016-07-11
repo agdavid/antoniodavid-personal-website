@@ -1,7 +1,7 @@
 = Welcome to My Website
 
 == About Me
-I'm Antonio, a Full-Stack Web Developer with a Ruby on Rails Focus.  I believe that coding is a powerful tool for building things that imrpvoe peoples' lives everyday.
+I'm Antonio, a Full-Stack Web Developer with a Ruby on Rails Focus.  I believe that coding is a powerful tool for building things that improve peoples' lives everyday.
 
 In order to get the robust knowledge needed to bring projects to life, I enrolled in the Flatiron School's Learn-Verified full-stack webe development program, and I've been hooked on coding ever since.
 
